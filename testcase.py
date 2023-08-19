@@ -21,38 +21,34 @@ def mergeCodeToReleaseBranch():
     print('inside cd to mergefolder')
     os.system('cd CICDpractise')
     print('inside cd to cicdpractise')
-    # os.system('git checkout test2')
-    # print('inside git checkout test2')
-    # os.system('git branch')
-    # print('inside git branch')
     os.system('git checkout main')
     print('inside checkout main')
-    os.system('git pull')
-    print('inside git pull after checkout main')
+
+    
     os.system('git pull origin main')
-    print('inside pull origin main')
+    print('Pulled changes from remote main branch')
+
     os.system('git merge test2')
-    print('inside merge test2')
+    print('Merged test2 into main branch')
+
     os.system('git add .')
-    print('inside git add')
+    print('Added changes to commit')
+
     os.system('git commit -m "Merge test2 into main"')
-    print('inside  commit')  
-    os.system('git pull')
-    print('inside git pull')  
-    # os.system('git push main')
-    # print('inside push main')
+    print('Committed changes')
+
+    
+    os.system('git pull origin main')
+    print('Pulled changes after merging and committing')
+
     push_result = os.system('git push origin main')
-    print('inside push main')
     if push_result != 0:
         print("Error pushing to main branch")
 
-# def runAllTests():
-#     os.system('python -m pytest')git merge test2
+
 
     
 def runOsCommand():
-    # runAllTests()
-    # print("inside runOsCommand func")
     testpassed = findFailedStatus()
     print('test-passed', testpassed)
     if (testpassed == False):

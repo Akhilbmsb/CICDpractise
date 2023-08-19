@@ -1,6 +1,6 @@
 id,module,name,file,doc,markers,status,message,duration
-test_flaskproject.py::test_add,test_flaskproject,test_add,test_flaskproject.py,,,passed,,0.00043930599349550903
-test_flaskproject.py::test_sub,test_flaskproject,test_sub,test_flaskproject.py,,,passed,,0.00017357998876832426
-test_flaskproject.py::test_mult,test_flaskproject,test_mult,test_flaskproject.py,,,passed,,0.00026582597638480365
-test_flaskproject.py::test_div,test_flaskproject,test_div,test_flaskproject.py,,,passed,,0.0002109420020133257
-test_flaskproject.py::test_sqroot,test_flaskproject,test_sqroot,test_flaskproject.py,,,passed,,0.0009403100120835006
+test_flaskproject.py::test_add,test_flaskproject,test_add,test_flaskproject.py,,,passed,,0.00022792399977333844
+test_flaskproject.py::test_sub,test_flaskproject,test_sub,test_flaskproject.py,,,passed,,0.0001370410027448088
+test_flaskproject.py::test_mult,test_flaskproject,test_mult,test_flaskproject.py,,,passed,,0.00012878500274382532
+test_flaskproject.py::test_div,test_flaskproject,test_div,test_flaskproject.py,,,passed,,0.0001259300042875111
+test_flaskproject.py::test_sqroot,test_flaskproject,test_sqroot,test_flaskproject.py,,,passed,,0.00012616001185961068
