@@ -20,3 +20,6 @@ def sqrt(a):
     if(a<0):
         return "Error"
     return math.sqrt(a)
+
+def cod(1)
+    return "1"
