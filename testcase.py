@@ -33,8 +33,8 @@ def mergeCodeToReleaseBranch():
     print('inside  commit')  
     os.system('git pull')
     print('inside git pull')  
-    os.system('git push')
-    print('inside push')
+    os.system('git push main')
+    print('inside push main')
 
 # def runAllTests():
 #     os.system('python -m pytest')git merge test2
