@@ -15,6 +15,12 @@ def findFailedStatus():
 
 def mergeCodeToReleaseBranch():
     print('inside mergeCodeToRelease')
+    os.system('cd ..')
+    print('inside cd')
+    os.system('cd mergefolder')
+    print('inside cd to mergefolder')
+    os.system('cd CICDpractise')
+    print('inside cd to cicdpractise')
     os.system('git checkout main')
     print('inside checkout main')
     os.system('git pull origin main')
