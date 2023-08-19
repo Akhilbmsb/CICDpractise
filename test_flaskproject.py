@@ -1,4 +1,4 @@
-from flaskproject import add,sub,mult,div,sqrt
+from flaskproject import add,sub,mult,div,sqrt,cod
 
 def test_add():
     result=add(-2,-3)
@@ -19,3 +19,7 @@ def test_div():
 def test_sqroot():
     result=sqrt(4)
     assert result == 2
+
+def test_cod():
+    result=cod(1)
+    assert result == "1"
