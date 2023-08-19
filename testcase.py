@@ -25,7 +25,7 @@ def mergeCodeToReleaseBranch():
     print('inside git add')
     os.system('git commit -m "Merge test2 into main"')
     print('inside inside commit')  
-    os.system('git push origin main"')
+    os.system('git push origin main')
     print('inside push origin main')
 
 # def runAllTests():
