@@ -1,10 +1,10 @@
 #!/bin/bash
 v1="https://github.com/Akhilbmsb/CICDpractise.git"
 v2="/var/www/html"
-fold="CI-CD-Pipeline"
+fold="CICDPractise"
 # if [ -d "$fold" -a ! -h "$fold" ]
 # cd CICDpractise
-folder_path="/home/ubuntu/CI-CD-Pipeline"
+folder_path="/home/ubuntu/CICDPractise"
 if [ ! -d "$folder_path" ]; then
     echo "Folder does not exist. Creating..."
     git clone $v1
